@@ -106,7 +106,7 @@ class RegressionTrain(nn.Module):
             print("==> restored checkpoint at '{}' epochs".format(checkpoint['epoch']))
         # model = nn.DataParallel(model, device_ids=device_ids).to(device)
         # assign the architectures
-        self.model = model
+        self.model = model  # note: self.model=model.cuda(), if report "torch.cuda().Floattensor ..."
 
         # assign the weights for each task
         self.weights = nn.Parameter(torch.ones(n_tasks).float())
