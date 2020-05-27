@@ -1,0 +1,180 @@
+os:	Linux			date:	2019-12-26 22:01:23.806452
+model:	ModelShallow		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.03099683 s/item	mse:	145.63833618
+ssim:	0.80784583		psnr:	27.41042519
+
+os:	Linux			date:	2019-12-27 15:11:05.681251
+model:	ModelShallowEdgeGradBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.03549064 s/item	mse:	136.77142334
+ssim:	0.84556305		psnr:	27.77236366
+
+os:	Linux			date:	2019-12-27 15:11:21.004775
+model:	ModelShallowEdgeLossBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00782079 s/item	mse:	132.04154968
+ssim:	0.83309388		psnr:	27.87752914
+
+os:	Linux			date:	2019-12-27 21:41:45.938138
+model:	ModelShallowEdgeFixed		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.02222829 s/item	mse:	141.83030701
+ssim:	0.81534743		psnr:	27.53967094
+
+os:	Linux			date:	2019-12-28 08:22:53.249631
+model:	ModelShallowCAFormerEdgeGradBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00866792 s/item	mse:	130.73712158
+ssim:	0.84711754		psnr:	27.94439697
+
+os:	Linux			date:	2019-12-28 08:23:12.735639
+model:	ModelShallowCAFormerEdgeLossBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.01028437 s/item	mse:	126.03962708
+ssim:	0.83791292		psnr:	28.11363792
+
+
+------------------ new model -------------------------
+
+os:	Linux			date:	2019-12-29 20:32:05.439486
+model:	ModelShallowNew		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00592937 s/item	mse:	144.46377563
+ssim:	0.81463033		psnr:	27.50161934
+
+os:	Linux			date:	2019-12-29 20:32:18.552425
+model:	ModelShallowNewCaformer		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00621622 s/item	mse:	136.50205994
+ssim:	0.82156587		psnr:	27.77390099
+
+os:	Linux			date:	2019-12-29 20:32:31.993742
+model:	ModelShallowNewCaformerEdgeGradBalance@86epoch		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00624457 s/item	mse:	126.52527618
+ssim:	0.85020852		psnr:	28.09974670
+
+os:	Linux			date:	2019-12-29 20:32:45.420798
+model:	ModelShallowNewCaformerEdgeLossBalance@90epoch		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00624184 s/item	mse:	126.03193665
+ssim:	0.84163660		psnr:	28.14281464
+
+os:	Linux			date:	2019-12-30 08:58:40.624920
+model:	ModelShallowNewCaformerEdgeGradBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00795074 s/item	mse:	126.51119232
+ssim:	0.85054564		psnr:	28.10574913
+
+os:	Linux			date:	2019-12-30 08:58:54.638993
+model:	ModelShallowNewCaformerEdgeLossBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00549451 s/item	mse:	125.83181000
+ssim:	0.84174860		psnr:	28.14703941
+
+os:	Linux			date:	2019-12-30 08:59:10.022778
+model:	ModelShallowNewEdgeFixed		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00778473 s/item	mse:	141.06268311
+ssim:	0.81995475		psnr:	27.61317062
+
+os:	Linux			date:	2019-12-30 08:59:28.466622
+model:	ModelShallowNewEdgeGradBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.01043184 s/item	mse:	135.33253479
+ssim:	0.84572339		psnr:	27.83439445
+
+os:	Linux			date:	2019-12-30 08:59:43.461842
+model:	ModelShallowNewEdgeLossBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00533526 s/item	mse:	130.71894836
+ssim:	0.83927464		psnr:	27.95862961
+
+
+os:	Linux			date:	2020-01-03 21:26:29.441804
+model:	ModelShallowNewEdgeGramLossBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	1
+speed:	0.00418609 s/item	mse:	137.11985779
+ssim:	0.84716952		psnr:	27.76675224
+
+os:	Linux			date:	2020-01-03 21:52:44.474690
+model:	ModelShallowNewEdgeGramGradBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	1
+speed:	0.00422608 s/item	mse:	135.94245911
+ssim:	0.84645331		psnr:	27.79772186
+
+os:	Linux			date:	2020-01-04 09:12:58.538475
+model:	ModelShallowNewCaformerEdgeGramLossBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00507408 s/item	mse:	126.11705780
+ssim:	0.85128003		psnr:	28.10463333
+
+os:	Linux			date:	2020-01-04 09:13:11.766662
+model:	ModelShallowNewCaformerEdgeGramGradBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00675063 s/item	mse:	125.52473450
+ssim:	0.85054308		psnr:	28.14185143
+
+os:	Linux			date:	2020-01-05 22:55:54.533593
+model:	ModelMenet		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00578299 s/item	mse:	139.09931946
+ssim:	0.81994021		psnr:	27.69280243
+
+os:	Linux			date:	2020-01-05 22:56:07.547000
+model:	ModelMenetEdgeGramLossBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00555986 s/item	mse:	127.25167847
+ssim:	0.85195512		psnr:	28.06953812
+
+os:	Linux			date:	2020-01-06 09:09:46.703313
+model:	ModelDeepNewCaformerEdgeGramLossBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	1
+speed:	0.00517513 s/item	mse:	111.02864075
+ssim:	0.85751224		psnr:	28.65095520
+
+
+
+os:	Linux			date:	2020-01-07 15:50:34.891382
+model:	ModelShallowNewCaEdgeGramLossBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00590580 s/item	mse:	125.11624908
+ssim:	0.85349512		psnr:	28.15728569
+
+os:	Linux			date:	2020-01-07 15:50:53.450927
+model:	ModelShallowNewCaEdgeGramGradBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00953705 s/item	mse:	124.69583893
+ssim:	0.85243064		psnr:	28.14578819
+
+os:	Linux			date:	2020-01-08 09:10:22.951286
+model:	ModelShallowNewCaEdgeGramLossBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00519761 s/item	mse:	125.11624908
+ssim:	0.85349512		psnr:	28.15728569
+
+os:	Linux			date:	2020-01-08 09:10:37.191536
+model:	ModelShallowNewCaEdgeGramGradBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00668889 s/item	mse:	124.69583130
+ssim:	0.85243058		psnr:	28.14578819
+
+os:	Linux			date:	2020-01-08 09:11:31.978062
+model:	ModelDeepNewCaEdgeGramLossBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.01176062 s/item	mse:	109.32073975
+ssim:	0.85913241		psnr:	28.71671677
+
+os:	Linux			date:	2020-01-08 09:11:45.813385
+model:	ModelDeepNewCaEdgeGramGradBalance		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.00603459 s/item	mse:	108.64771271
+ssim:	0.86101377		psnr:	28.73986626
+
+os:	Windows			date:	2020-01-09 16:30:06.531694
+model:	ModelShallowNew		image_size:	224
+data:	Rain100H.h5		gpu_id:	2
+speed:	0.65784051 s/item	mse:	144.43443298
+ssim:	0.81464326		psnr:	27.50180244
+
